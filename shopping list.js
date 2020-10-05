@@ -18,7 +18,7 @@ function createListElement() {
 	deletBtn.appendChild(document.createTextNode("delete"));
 	li.appendChild(deletBtn)
 
-	input.value = "";
+	input.value = ""; //empty the searchbox after event 
 }
 
 
